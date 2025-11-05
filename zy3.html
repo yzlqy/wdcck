@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>061王靖文</title>
+    <style>
+        * {
+            list-style: none;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+
+        .yijihezi {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 400px;
+            height: 700px;
+            margin: auto;
+        }
+
+        .yijiliebiao {
+            width: 100px;
+            height: 200px;
+        }
+
+        .yijiliebiao>li {
+            float: left;
+            background-color: #eee;
+            width: 100px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 3px;
+            border-radius: 5px;
+        }
+
+        .d1 {
+            position: absolute;
+        }
+
+        .d2 {
+            position: relative;
+            top: 120px;
+        }
+
+        .ejhz1 {
+            width: 120px;
+            height: 134px;
+            background-color: #eee;
+            border-radius: 5px;
+            margin: 10px 5px;
+            position: absolute;
+            left: 96px;
+            display: none;
+        }
+
+        .ejhz2 {
+            width: 120px;
+            height: 134px;
+            background-color: #eee;
+            border-radius: 5px;
+            margin: 10px 5px;
+            position: absolute;
+            left: 96px;
+            top: -60px;
+            display: none;
+        }
+
+        .ejhz3 {
+            width: 120px;
+            height: 134px;
+            background-color: #eee;
+            border-radius: 5px;
+            margin: 10px 5px;
+            position: absolute;
+            left: 1025px;
+            display: none;
+        }
+
+        .ejbg1,
+        .ejbg2,
+        .ejbg3 {
+            padding: 0;
+        }
+
+        .ejbg1>li,
+        .ejbg2>li,
+        .ejbg3>li {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin: 13px;
+        }
+
+        .yijiliebiao>li:hover>.ejhz1 {
+            display: block;
+        }
+
+        .yijiliebiao>li:hover>.ejhz2 {
+            display: block;
+        }
+
+        .yijiliebiao>li:hover>.ejhz3 {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="yijihezi">
+        <ul class="yijiliebiao">
+            <li class="d1">
+                <a href="#">黎那汐塔</a>
+                <div class="ejhz1">
+                    <ul class="ejbg1">
+                        <li><a href="#">卡提希娅</a></li>
+                        <li><a href="#">珂莱塔</a></li>
+                        <li><a href="#">坎特蕾拉</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="d2">
+                <a href="#">黑海岸</a>
+                <div class="ejhz2">
+                    <ul class="ejbg2">
+                        <li><a href="#">守岸人</a></li>
+                        <li><a href="#">嘉贝莉娜</a></li>
+                        <li><a href="#">漂泊者</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="d3">
+                <a href="#">残星会</a>
+                <div class="ejhz3">
+                    <ul class="ejbg3">
+                        <li><a href="#">弗洛洛</a></li>
+                        <li><a href="#">伤痕</a></li>
+                        <li><a href="#">戏剧家</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
